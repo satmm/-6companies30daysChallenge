@@ -6,6 +6,7 @@ class Solution {
         hm.putIfAbsent(a.get(0), new ArrayList<>());
         hm.get(a.get(0)).add(Integer.valueOf(a.get(1)));
     }
+        
     for(String key: hm.keySet()){
         List<Integer> l = hm.get(key);
         if(l.size()>=3){
