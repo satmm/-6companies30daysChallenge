@@ -14,6 +14,7 @@ class Solution {
                 r++;
                 c--;
             }
+		
             
             // Diamond side: Left Bottom
             for (int count = dist; count > 0; count--) {
