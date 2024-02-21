@@ -14,6 +14,7 @@ class ThroneInheritance {
             l.add(childName);
             h.put(parentName,l);
         }
+            
         else
         {
              ArrayList<String> l=h.get(parentName);
