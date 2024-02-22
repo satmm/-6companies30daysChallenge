@@ -5,6 +5,9 @@ class Solution {
         int ans=0;
         int max=0;
 
+
+
+        
         while(j<s.length()){
             ans+=Math.abs((int)s.charAt(j)-(int)t.charAt(j));
 
