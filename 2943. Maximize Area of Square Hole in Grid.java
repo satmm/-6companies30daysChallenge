@@ -17,7 +17,7 @@ class Solution {
                 i++;
                 count++;
             }
-            i++;
+            i++; //incement
             res = Math.max(res, count);
         }
         
