@@ -15,6 +15,7 @@ class Solution {
                     ((row & middleAisle) ^ middleAisle) == 0)
                 numFamilies++;
         }
+        //return the answer
         return numFamilies + 2 * (n - cinemaSeats.keySet().size());
     }
 
