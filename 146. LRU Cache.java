@@ -80,8 +80,7 @@ public int get(int key) {
 
   return node.value;
 }
-
-
+//function for put
 public void put(int key, int value) {
   DLinkedNode node = cache.get(key);
 
