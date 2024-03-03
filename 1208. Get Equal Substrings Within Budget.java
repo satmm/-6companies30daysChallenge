@@ -24,6 +24,7 @@ class Solution {
             j++;
 
         }
+        // return the answer
         return max;
     }
 }
