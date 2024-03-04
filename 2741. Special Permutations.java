@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 class Solution {
-    int mod = 1000000007;
+    int mod = 1000000007;  //set value
 
     int sb(int x) {
         int ans = 0;
