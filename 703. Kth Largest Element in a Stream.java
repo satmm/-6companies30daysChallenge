@@ -10,6 +10,6 @@ class KthLargest {
   public int add(int val) {
     heap.offer(val);
     if (heap.size() > k) heap.poll();
-    return heap.peek();
+    return heap.peek();          //return answer
   }
 }
