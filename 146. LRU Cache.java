@@ -93,7 +93,8 @@ public void put(int key, int value) {
     this.cache.put(key, newNode);
     this.addNode(newNode);
 
-    ++count;
+    ++count;   //increment
+    
 
     if(count > capacity){
       // pop the tail
