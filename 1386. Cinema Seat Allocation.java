@@ -19,5 +19,8 @@ class Solution {
         return numFamilies + 2 * (n - cinemaSeats.keySet().size());
     }
 
-    private int setBit(int cinemaSeat, int i) { return cinemaSeat | (1 << i); }
+    private int setBit(int cinemaSeat, int i)
+    {
+        return cinemaSeat | (1 << i); 
+    }
 }
